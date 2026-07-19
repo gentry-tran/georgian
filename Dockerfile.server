@@ -1,0 +1,25 @@
+# Durable, self-contained image: builds the app AND runs server.js, which serves
+# the static site and persists progress to SQLite in a mounted volume (/app/data).
+# Node 22 ships the built-in node:sqlite module.
+#
+#   docker build -f Dockerfile.server -t georgian-language-app:durable .
+#   docker run -p 8080:8080 -v georgian_data:/app/data georgian-language-app:durable
+FROM node:22-alpine AS build
+WORKDIR /app
+COPY package.json package-lock.json ./
+RUN npm ci --no-audit --no-fund
+COPY . .
+RUN npm run build
+
+FROM node:22-alpine AS runtime
+WORKDIR /app
+# only what the server needs: the build output, the server, + the shared merge core
+COPY --from=build /app/build ./build
+COPY --from=build /app/src/lib/mergeCore.js ./src/lib/mergeCore.js
+COPY server.js ./
+ENV PORT=8080
+ENV DATA_DIR=/app/data
+VOLUME ["/app/data"]
+EXPOSE 8080
+HEALTHCHECK --interval=30s --timeout=3s CMD wget -qO- http://localhost:8080/ >/dev/null 2>&1 || exit 1
+CMD ["node", "server.js"]

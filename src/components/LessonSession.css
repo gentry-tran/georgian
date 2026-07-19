@@ -1,0 +1,106 @@
+.session {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.session-topbar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 20px;
+  max-width: 720px;
+  margin: 0 auto;
+  width: 100%;
+}
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 22px;
+  color: var(--muted);
+  cursor: pointer;
+}
+.progress-track {
+  flex: 1;
+  height: 16px;
+  background: var(--line);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  background: var(--green);
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+.session-streak {
+  font-weight: 800;
+  min-width: 44px;
+  text-align: right;
+}
+
+.session-body {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px 60px;
+}
+
+/* ---------- Celebration ---------- */
+.celebration {
+  text-align: center;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+.celebration-emoji {
+  font-size: 80px;
+  animation: pop 0.4s ease-out;
+}
+.celebration h1 {
+  font-size: 30px;
+  margin: 10px 0 18px;
+}
+.celebration-line {
+  font-size: 20px;
+  margin: 6px 0;
+}
+.celebration-streak {
+  font-size: 18px;
+  color: var(--muted);
+  margin-bottom: 26px;
+}
+.celebration-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+.celebration-actions button {
+  min-width: 240px;
+}
+
+.stars {
+  font-size: 40px;
+  letter-spacing: 6px;
+  margin: 8px 0 6px;
+}
+.stars .star {
+  color: var(--line);
+}
+.stars .star.on {
+  color: #ffd400;
+  text-shadow: 0 2px 6px rgba(255, 200, 0, 0.4);
+}
+
+@keyframes pop {
+  from {
+    transform: scale(0.4);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

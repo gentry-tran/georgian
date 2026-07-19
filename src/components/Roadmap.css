@@ -1,0 +1,254 @@
+.roadmap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+/* ---------- Header ---------- */
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--line);
+  padding: 12px 18px 0;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto;
+  gap: 8px 0;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 900;
+}
+.brand-mark {
+  font-size: 22px;
+}
+.brand-name {
+  font-family: "Noto Sans Georgian", "Noto Serif Georgian", "Sylfaen", serif;
+  font-size: 18px;
+}
+.header-stats {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-self: end;
+  text-decoration: none;
+  color: inherit;
+  padding: 4px 8px;
+  border-radius: 999px;
+}
+.header-stats:hover {
+  background: #f1f1f1;
+}
+.stat.chevron {
+  color: #bbb;
+  font-weight: 900;
+}
+.stat {
+  font-weight: 800;
+  font-size: 15px;
+}
+.stat.streak {
+  color: #ff9600;
+}
+.stat.xp {
+  color: #ffb700;
+}
+.header-progress {
+  grid-column: 1 / -1;
+  height: 8px;
+  background: var(--line);
+  border-radius: 999px;
+  overflow: hidden;
+  margin: 4px 0 10px;
+}
+.header-progress-fill {
+  height: 100%;
+  background: var(--green);
+}
+
+/* ---------- Intro ---------- */
+.roadmap-intro {
+  text-align: center;
+  padding: 26px 20px 8px;
+}
+.roadmap-intro h1 {
+  font-size: 30px;
+  margin: 0 0 8px;
+}
+.roadmap-intro p {
+  color: var(--muted);
+  max-width: 520px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+.review-btn {
+  margin-top: 16px;
+}
+
+/* ---------- Level band ---------- */
+.level {
+  margin-top: 30px;
+}
+.level-band {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 18px;
+  margin: 0 14px;
+  border-radius: 18px;
+  color: #fff;
+  background: var(--level-color, var(--green));
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+.cefr-badge {
+  font-size: 22px;
+  font-weight: 900;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 12px;
+  padding: 8px 12px;
+}
+.level-head h2 {
+  margin: 0;
+  font-size: 22px;
+}
+.level-ka {
+  font-family: "Noto Sans Georgian", "Noto Serif Georgian", "Sylfaen", serif;
+  font-weight: 500;
+  opacity: 0.9;
+  font-size: 16px;
+}
+.level-head p {
+  margin: 4px 0 0;
+  font-size: 14px;
+  opacity: 0.95;
+}
+
+/* ---------- Unit + path ---------- */
+.unit {
+  padding: 8px 18px 4px;
+}
+.unit-title {
+  font-weight: 800;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 13px;
+  margin: 22px 0 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.unit-icon {
+  font-size: 18px;
+}
+.unit-path {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.node-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px 0;
+}
+.offset-0 {
+  margin-left: 0;
+}
+.offset-1 {
+  margin-left: 48px;
+}
+.offset-2 {
+  margin-left: 24px;
+}
+
+.node {
+  position: relative;
+  width: 74px;
+  height: 74px;
+  min-width: 74px;
+  border-radius: 50%;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  transition: transform 0.08s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.node:active:not(:disabled) {
+  transform: translateY(3px);
+}
+.node-start {
+  background: var(--green);
+  box-shadow: 0 6px 0 var(--green-dark);
+  color: #fff;
+}
+.node-done {
+  background: #ffd400;
+  box-shadow: 0 6px 0 #d9a400;
+}
+.node-locked {
+  background: #e9e9e9;
+  box-shadow: 0 6px 0 #d2d2d2;
+  cursor: not-allowed;
+}
+.node-badge {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  color: var(--green-dark);
+  font-size: 10px;
+  font-weight: 900;
+  padding: 3px 8px;
+  border-radius: 999px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+.node-check {
+  position: absolute;
+  bottom: -6px;
+  right: -6px;
+  background: var(--green);
+  color: #fff;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.node-label {
+  flex: 1;
+}
+.node-title {
+  font-weight: 800;
+  font-size: 17px;
+}
+.node-goal {
+  font-size: 13px;
+  color: var(--muted);
+}
+.node-stars .s {
+  color: var(--line);
+  font-size: 16px;
+}
+.node-stars .s.on {
+  color: #ffb700;
+}
+
+.roadmap-footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 14px;
+  padding: 40px 20px 10px;
+}

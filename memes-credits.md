@@ -1,0 +1,66 @@
+# Meme image credits
+
+Funny cat images from Wikimedia Commons (CC / public domain). Captions are original.
+
+- cat-01.jpg — Funny Kitten.jpg — Tela Chhe — CC BY 2.0
+- cat-02.jpg — Коты от Funny Orange Cat.jpg — FunnyOrangeCat — CC BY 3.0
+- cat-03.jpg — B and B - Cat Walk - Funny Kids - Subway - geograph.org.uk - 1624059.jpg — Kenneth Allen — CC BY-SA 2.0
+- cat-04.jpg — Funny Girl (Městské divadlo Brno).jpg — Jef Kratochvil — CC BY-SA 3.0 cz
+- cat-05.jpg — Funny-Cat 350816-300x225 (4792429010).jpg — Emilian Robert Vicol from Com. Balanesti, Romania — CC BY 2.0
+- cat-06.jpg — Funny-Cat A-cat-at-work 63172-480x360 (4791796627).jpg — Emilian Robert Vicol from Com. Balanesti, Romania — CC BY 2.0
+- cat-07.jpg — Funny cat (6225537439).jpg — Moyan Brenn from Italy — CC BY 2.0
+- cat-08.jpg — Funny cats - Bengal Cat is resting because of tired.jpg — Anastasiia Kalianova — CC BY-SA 4.0
+- cat-09.jpg — Funny-faced bully cat (50539714923).jpg — Julien Seguinot from Lille, France — CC BY-SA 2.0
+- cat-10.jpg — Cat in console.png — Vsthill — CC0
+- cat-11.jpg — What's so funny ? (20100220978).jpg — Trish Hamme from Reno , Nevada, USA — CC BY 2.0
+- cat-12.jpg — Funny cat posing (14436816385).jpg — Vladimir Pustovit — CC BY 2.0
+- cat-13.jpg — Funny cat posing (14250377907).jpg — Vladimir Pustovit — CC BY 2.0
+- cat-14.jpg — Funny Kitten (2008; cropped 2023).jpg — Tela Chhe — CC BY 2.0
+- cat-15.jpg — My cat is white.jpg — Dewi Rahmawaati — CC0
+- cat-16.jpg — Tigger Seyranian the Muffin Cat, Kitten sitting funny.jpg — TyedyeBrody — CC0
+- cat-17.jpg — Gracie Seyranian the chunky cat, she’s a funny cat but she’s angry.jpg — TyedyeBrody — CC0
+- cat-18.jpg — Gracie Seyranian the Cat that sleeps funny.jpg — TyedyeBrody — CC0
+- cat-19.jpg — Cat inside a wong container funny 2025 sns s (1).jpg — Gerardolagunes — CC0
+- cat-20.jpg — Cat inside a wong container funny 2025 sns s (3).jpg — Gerardolagunes — CC0
+- cat-21.jpg — Cat inside a wong container funny 2025 sns s (2).jpg — Gerardolagunes — CC0
+- cat-22.jpg — Tigger Seyranian the Muffin Cat, Kitten sitting funny (2023; cropped 2025).jpg — TyedyeBrody — CC0
+- cat-23.jpg — Punkin (the cat).jpg — CWK-registolen — CC0
+- cat-24.jpg — Funny cat posing (14250377907) (2014; cropped 2025).jpg — Vladimir Pustovit — CC BY 2.0
+- cat-25.jpg — Surprised cat.jpg — TOBERTZ CHAVEZ — CC BY 2.0
+- cat-26.jpg — Surprised cats of crete.jpg — Oliver Deisenroth — CC BY-SA 3.0
+- cat-27.jpg — Surprised young cat.JPG — WatchduckYou can name the author as "T. Piesk", "Tilman Piesk" or "Watchduck". — CC BY 3.0
+- cat-28.jpg — Édouard MANET - La Nymphe surprise - Google Art Project.jpg — Édouard Manet — Public domain
+- cat-29.jpg — Winter-Cat-in-a-tree detail.jpg — User Fir0002/Flagstaffotos; edited by User Jaybear — CC BY-SA 3.0
+- cat-30.jpg — Surprised Cat 1.JPG — Matthew Paul Argall — CC BY 3.0
+- cat-31.jpg — Surprised Cat 2.JPG — Matthew Paul Argall — CC BY 3.0
+- cat-32.jpg — Surprised Black Cat.JPG — Revital Salomon — CC BY-SA 4.0
+- cat-33.jpg — Surprised CAT!.jpg — SureshMukhiya — CC BY-SA 4.0
+- cat-34.jpg — Cat looking surprised.jpg — Artis Logins — CC BY-SA 2.0
+- cat-35.jpg — Surprised Cat.jpg — Rudi Riet — CC BY-SA 2.0
+- cat-36.jpg — Surprised Siamese cat in suburb nature.jpg — Dielquo — CC BY-SA 4.0
+- cat-37.jpg — Surprised ragdoll cat.jpg — Ion D-worth — CC BY-SA 4.0
+- cat-38.jpg — Surprised look Cat.jpg — KKPCW — CC BY-SA 4.0
+- cat-39.jpg — Joachim Wtewael - Mars and Venus Surprised by Vulcan.jpg — Joachim Wtewael — Public domain
+- cat-40.jpg — Surprised orange cat.jpg — Saipul bakrie — CC BY-SA 4.0
+- cat-41.jpg — Chat tigré Josselin 01.jpg — Tsaag Valren — CC BY-SA 4.0
+- cat-42.jpg — Suffolk cats looking surprised!.jpg — David Harding-Brown — CC BY-SA 4.0
+- cat-43.jpg — Surprised look Cat (2015 photo; cropped 2022).jpg — KKPCW — CC BY-SA 4.0
+- cat-44.jpg — "Hidden Cat Surprised" (26346585262).jpg — Lihoman... — CC BY 2.0
+- cat-45.jpg — Black cat looking surprised while lying down - 1.jpg — Kyu3a — CC BY-SA 4.0
+- cat-46.jpg — Black cat looking surprised while lying down - 2.jpg — Kyu3a — CC BY-SA 4.0
+- cat-47.jpg — Mars and Venus Surprised by Vulcan - Tintoretto.jpg — GoldenArtists — CC BY 4.0
+- cat-48.jpg — "Hidden Cat Surprised", by Lihoman, 2013 (cropped 2024).jpg — Lihoman... — CC BY 2.0
+- cat-49.jpg — Surprised cat at night.jpg — Feitidede — CC BY 4.0
+- cat-50.jpg — Tabby cat-yawning-01.jpg — Hisashi — CC BY-SA 2.0
+- cat-51.jpg — Tabby cat-yawning-02.jpg — Hisashi — CC BY-SA 2.0
+- cat-52.jpg — Tabby cat-yawning-03.jpg — Hisashi — CC BY-SA 2.0
+- cat-53.jpg — Tabby cat-yawning-04a.jpg — Hisashi — CC BY-SA 2.0
+- cat-54.jpg — Cat yawning rabacal.jpg — Gazio — CC BY-SA 3.0
+- cat-55.jpg — Yawning cat Poland.JPG — Crusier — CC BY-SA 3.0
+- cat-56.jpg — Joseph Ducreux (French) - Self-Portrait, Yawning - Google Art Project.jpg — Joseph Ducreux — Public domain
+- cat-57.jpg — Yawning cat by David Montolio.jpg — David Montolio — CC0
+- cat-58.jpg — Cat yawning in Pachmarhi.jpg — Suyash Dwivedi — CC BY-SA 4.0
+- cat-59.jpg — Cat yawning - DSC00577.jpg — Lemon tart — CC0
+- cat-60.jpg — Cat yawning Pixabay.jpg — Jonathan Sautter — CC0
+- cat-61.jpg — Yawning cat in a paper bag.jpg — I am R. — CC BY 2.0
+- cat-62.jpg — White cat yawning on chair.jpg — Rubbish computer — CC BY-SA 4.0

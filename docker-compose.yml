@@ -1,0 +1,28 @@
+# Run the app locally on one machine.
+#
+# Static (no saved-progress server) — open http://localhost:8080 :
+#   docker compose up --build georgian-language-app
+#
+# Durable (progress persisted to SQLite in a named volume) — http://localhost:8080 :
+#   docker compose up --build durable
+services:
+  georgian-language-app:
+    build: .
+    container_name: georgian-language-app
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+
+  durable:
+    build:
+      context: .
+      dockerfile: Dockerfile.server
+    container_name: georgian-language-app-durable
+    ports:
+      - "8080:8080"
+    volumes:
+      - georgian_data:/app/data
+    restart: unless-stopped
+
+volumes:
+  georgian_data:

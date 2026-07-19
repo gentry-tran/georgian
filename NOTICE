@@ -1,0 +1,21 @@
+This application bundles / uses third-party components:
+
+Georgian speech audio (public/audio/*.mp3)
+  Pre-rendered offline with the eSpeak-NG CLI (https://github.com/espeak-ng/espeak-ng).
+  The espeak-ng PROGRAM is GPLv3, but its synthesized audio OUTPUT is not a
+  derivative work of the program, so these generated clips carry no GPL
+  obligation. Individual clips may be replaced by CC-licensed native-speaker
+  recordings (see below); such files retain their original license + attribution.
+
+Native-speaker recordings (any public/audio/*.mp3 sourced from Wikimedia)
+  Source: Wikimedia Commons / Lingua Libre (https://commons.wikimedia.org).
+  License: per-file, typically CC BY-SA 4.0 or CC0. See audio-credits.md for
+  per-file attribution.
+
+Noto Sans Georgian (src/assets/fonts/NotoSansGeorgian.woff2)
+  Source: Google Fonts / https://github.com/notofonts/noto-fonts
+  License: SIL Open Font License 1.1
+
+Cat / reaction images (src/assets/memes/*)
+  Playful feedback images. CC-licensed / public-domain images are attributed in
+  audio-credits.md / memes-credits.md where applicable.

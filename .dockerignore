@@ -1,0 +1,11 @@
+node_modules
+build
+.git
+.github
+npm-debug.log
+Dockerfile
+.dockerignore
+docker-compose.yml
+.npmrc
+coverage
+*.md
