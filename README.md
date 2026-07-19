@@ -57,7 +57,7 @@ npm start          # opens http://localhost:3000
 ### Option B — Docker (one machine, one command)
 
 ```bash
-docker compose up --build georgian-language-app   # static, progress in browser
+docker compose up --build georgian   # static, progress in browser
 # open http://localhost:8080
 ```
 
@@ -79,12 +79,12 @@ in-app progress screen.
 
 ### Option C — Prebuilt image from GitHub
 
-Once this repo is pushed to GitHub, the `docker-publish` workflow publishes an
-image to the GitHub Container Registry on every push to `main`:
+The `docker-publish` workflow publishes an image to the GitHub Container
+Registry on every push to `main`:
 
 ```bash
-docker pull ghcr.io/<owner>/georgian-language-app:latest
-docker run -p 8080:80 ghcr.io/<owner>/georgian-language-app:latest
+docker pull ghcr.io/gentry-tran/georgian:latest
+docker run -p 8080:80 ghcr.io/gentry-tran/georgian:latest
 # open http://localhost:8080
 ```
 

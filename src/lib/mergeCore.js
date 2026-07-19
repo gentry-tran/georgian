@@ -85,7 +85,12 @@ function merge(a, b) {
   }
 
   // words (Leitner): last-writer-wins on a TOTAL order (lastReview, box, lapses,
-  // due) so the winner is independent of argument order.
+  // due). INVARIANT: `key` MUST list EVERY word field — the tuple covering all
+  // fields is what makes a full-tuple tie mean "identical record." The final
+  // stringify compare resolves any residual tie DETERMINISTICALLY and
+  // independently of argument order (the client merges local-first, the server
+  // existing-first), so if a field is ever added and omitted from `key`, the two
+  // sides still pick the same winner instead of oscillating across devices.
   const key = (r) => [r.lastReview, r.box, r.lapses, r.due];
   const gte = (x, y) => {
     const kx = key(x), ky = key(y);
@@ -93,7 +98,7 @@ function merge(a, b) {
       if (kx[i] === ky[i]) continue;
       return kx[i] > ky[i];
     }
-    return true;
+    return JSON.stringify(x) >= JSON.stringify(y);
   };
   for (const ka of new Set([...Object.keys(A.words), ...Object.keys(B.words)])) {
     const ra = A.words[ka], rb = B.words[ka];

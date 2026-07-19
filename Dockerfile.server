@@ -2,8 +2,8 @@
 # the static site and persists progress to SQLite in a mounted volume (/app/data).
 # Node 22 ships the built-in node:sqlite module.
 #
-#   docker build -f Dockerfile.server -t georgian-language-app:durable .
-#   docker run -p 8080:8080 -v georgian_data:/app/data georgian-language-app:durable
+#   docker build -f Dockerfile.server -t georgian:durable .
+#   docker run -p 8080:8080 -v georgian_data:/app/data georgian:durable
 FROM node:22-alpine AS build
 WORKDIR /app
 COPY package.json package-lock.json ./

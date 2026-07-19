@@ -2,7 +2,7 @@ name: Publish Docker image
 
 # Publishes a downloadable image to GitHub Container Registry (GHCR) on every
 # push to main and on version tags. Pull it with:
-#   docker pull ghcr.io/<owner>/georgian-language-app:latest
+#   docker pull ghcr.io/<owner>/georgian:latest
 on:
   push:
     branches: [main]
@@ -28,7 +28,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/${{ github.repository_owner }}/georgian-language-app
+          images: ghcr.io/${{ github.repository_owner }}/georgian
           tags: |
             type=ref,event=branch
             type=semver,pattern={{version}}
